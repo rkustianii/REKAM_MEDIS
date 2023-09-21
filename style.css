@@ -7,12 +7,14 @@
 body{
     height: 100vh;
     background-image: "/siloam.jpg";
+    /*harusnya kayak gini pakai url background-image: url(/siloam.jpg); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .container{
     position: absolute;
+    /* Left dan Top pakai persen(%) akhirannya rin, makanya gak ketengah*/
     left: 50;
     top: 50;
     transform: translate(-50%,-50%);
